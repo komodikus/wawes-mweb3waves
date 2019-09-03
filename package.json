@@ -5,6 +5,8 @@
         "build": "webpack",
         "watch": "webpack --watch"
     },
+    "engines" : { "node" : ">=0.10.3 <0.12" 
+                },
     "dependencies": {
         "@babel/preset-env": "^7.1.0",
         "@babel/preset-react": "^7.0.0",
